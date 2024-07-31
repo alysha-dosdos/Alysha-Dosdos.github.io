@@ -1,14 +1,30 @@
 body {
-  background-color: lightpink;
+  background-color: pink;
 }
 h1 {
   font-family: 'Poiret One', sans-serif;
   font-weight: 100;
   font-style: normal;
+  font-size: 50px;
 }
 h3 {
   border: white;
   box-sizing: border-box;
   color: white;
   font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+}
+#photo {
+  max-width: 10%;
+  height: auto;
+}
+#design {
+  max-width: 30%;
+  height: auto;
+}
+.middle {
+  text-align: center;
+}
+a {
+  color: purple;
 }
