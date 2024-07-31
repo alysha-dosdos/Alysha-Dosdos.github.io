@@ -1,3 +1,14 @@
 body {
-  background-color: pink;
+  background-color: lightpink;
+}
+h1 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+h3 {
+  border: white;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Dancing Script', cursive;
 }
