@@ -6,6 +6,7 @@ h1 {
   font-weight: 100;
   font-style: normal;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 h3 {
   border: white;
@@ -13,6 +14,7 @@ h3 {
   color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
+  margin-top: 0;
 }
 #photo {
   max-width: 10%;
@@ -21,6 +23,10 @@ h3 {
 #design {
   max-width: 30%;
   height: auto;
+}
+span {
+  diplay: block;
+  text-align: center;
 }
 .middle {
   text-align: center;
@@ -35,12 +41,11 @@ nav {
   display: block;
 }
 .nav {
-  width: max-content;
+  width: fit-content;
   background-color: rgb(244, 219, 234);
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: 30px;
-  border-radius: 5px;
+  padding: 0px 10px;
+  margin-left: 0px;
+  border-radius: 0px;
 }
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
@@ -55,6 +60,15 @@ nav {
     max-width: 100%;
     height: auto;
   }
+  #design {
+    max-width: 100%;
+    height: auto;
+  }
+  #photo {
+    max-width: 25%;
+    height: auto;
+    margin: auto;
+  }
 }
 
 /* phones */
@@ -64,12 +78,14 @@ nav {
     height: auto;
   }
   #photo {
-    max-width: 25%;
+    max-width: 50%;
     height: auto;
-    padding-left: 50px;
-    padding-top: 20px;
+    margin: auto;
   }
   button {
     margin-bottom: 20px;
+  }
+  .phone {
+    text-align: center;
   }
 }
