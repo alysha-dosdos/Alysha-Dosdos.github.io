@@ -31,3 +31,14 @@ a {
 button {
   background-color: lightgreen;
 }
+nav {
+  display: block;
+}
+.nav {
+  width: max-content;
+  background-color: rgb(244, 219, 234);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
