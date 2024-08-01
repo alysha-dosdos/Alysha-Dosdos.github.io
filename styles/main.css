@@ -42,3 +42,34 @@ nav {
   margin-right: 30px;
   border-radius: 5px;
 }
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .container {
+    /* some layout rules */
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  body {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  #design {
+    max-width: 100%;
+    height: auto;
+  }
+  #photo {
+    max-width: 25%;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+}
