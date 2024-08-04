@@ -27,6 +27,14 @@ a {
   max-width: 30%;
   height: auto;
 }
+.image {
+  max-width: 30%;
+  height: auto;
+}
+#ss {
+  max-width: 50%;
+  height: auto;
+}
 span {
   diplay: block;
   text-align: center;
