@@ -16,6 +16,9 @@ h3 {
   font-size: 25px;
   margin-top: 0;
 }
+a {
+  color: purple;
+}
 #photo {
   max-width: 10%;
   height: auto;
@@ -30,9 +33,6 @@ span {
 }
 .middle {
   text-align: center;
-}
-a {
-  color: purple;
 }
 button {
   background-color: lightgreen;
