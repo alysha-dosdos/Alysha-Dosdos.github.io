@@ -47,6 +47,9 @@ nav {
   margin-left: 0px;
   border-radius: 0px;
 }
+.footer {
+  padding-top: 20px;
+}
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   .container {
